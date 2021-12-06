@@ -1,0 +1,22 @@
+:root{
+    --font:'Oxygen', sans-serif;
+    --headline1: 700 95px/153.71px var(--font);
+    --headline2: 700 59px/95.46px var(--font);
+    --headline3: 700 48px/77.66px var(--font);
+    --headline4: 700 34px/55.01px var(--font);
+    --headline5: 700 24px/38.83px var(--font);
+
+    --body1: 400 16px/25.89px var(--font);
+    --body2: 400 14px/22.65px var(--font);
+    --fontButton: 700 14px/22.65px var(--font);
+    --caption: 400 12px/19.42px var(--font);
+
+    --black:#0F0A0A;
+    --primkary:#42E2B8;
+    --gradient:linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+body{
+    background: var(--gradient);
+    min-height: 100vh;
+    font: var(--body1);
+}
