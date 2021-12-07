@@ -147,7 +147,30 @@ li{
     background: transparent;
     filter: drop-shadow(-4px 4px 14px rgba(0, 0, 0, 0.25));
 }
-
+/********************************/
+.presentation{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font:var(--font);
+    font-size: 1.3em;
+    line-height: 38px;
+}
+.txt1{
+    font-weight: 400;
+    margin-bottom: .7em;
+}
+.txt2{
+    font-weight: 700;
+}
+.presentation img{
+    max-width: 50px;
+}
 @media screen and (max-width: 768px){
     .menu-container{
         display: none;
