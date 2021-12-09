@@ -171,6 +171,69 @@ li{
 .presentation img{
     max-width: 50px;
 }
+/*******************/
+.projects{
+    display: flex;
+    margin:2em 0;
+}
+.project-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.proy-even{
+    flex-direction: row-reverse;
+}
+.project-title{
+  padding: .5em;
+  background: var(--black);
+  color: var(--primary);
+  box-shadow: -4px 4px 0 white;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.project-cta{
+    display: flex;
+    margin-top: 1.3em;
+}
+ .full{
+display: flex;
+justify-content: space-between;
+margin-left: .7em;
+}
+.icon-github{
+    display: inline-block;
+    max-width: 20px;
+}
+/****************************/
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+   border-radius: 1.5em;
+   backdrop-filter: blur(39.7657px);
+   background: rgba(255,255,255,.2);
+   border: 3.98px solid rgba(255,255,255,.4);
+}
+.testimony-copy {
+    font-size: 2.2em;
+    line-height: 55px;
+    font-weight: bold;
+    margin: 1em 0;
+  }
+  
+  .testimony-title {
+    color: rgba(0,0,0,.4);
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 1.5em;
+  }
+.testimony-image{
+    max-width: 70px;
+}
 @media screen and (max-width: 768px){
     .menu-container{
         display: none;
@@ -194,4 +257,17 @@ li{
     .banner-img img{
         max-width: 400px;
     }
+    .projects {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .testimony-copy {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      
+      .testimony-title {
+        font-size: 12px;
+        line-height: 20px;
+      }
 }
