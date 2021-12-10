@@ -183,6 +183,9 @@ li{
     align-items: flex-start;
     justify-content: center;
 }
+.project-item img{
+    max-width: 400px;
+}
 .proy-even{
     flex-direction: row-reverse;
 }
@@ -233,6 +236,43 @@ margin-left: .7em;
   }
 .testimony-image{
     max-width: 70px;
+}
+.contact{
+    width: 100%;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: .4em;
+}
+.contact-title{
+    padding: 0.5em;
+    background: var(--black);
+    color: var(--primary);
+    box-shadow: -4px 4px 0 white;
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.item-form button{
+    width: 100%;
+}
+.item-form label{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+.item-form span{
+    color: #DA1414;
+}
+input,textarea{
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8em;
+    border-radius: 0.5em;
+    border: 1px solid #858C94;
 }
 @media screen and (max-width: 768px){
     .menu-container{
