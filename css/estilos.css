@@ -56,7 +56,7 @@ li{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.logo img{
+.logo-img{
     max-width: 40px;
 }
 .navigation{
@@ -274,6 +274,10 @@ input,textarea{
     border-radius: 0.5em;
     border: 1px solid #858C94;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
 @media screen and (max-width: 768px){
     .menu-container{
         display: none;
@@ -309,5 +313,19 @@ input,textarea{
       .testimony-title {
         font-size: 12px;
         line-height: 20px;
+      }
+      .footer{
+          flex-direction: column;
+          align-items: center;
+      }
+      .footer-logo{
+          display: none;
+      }
+      .footer-redes{
+          order: -1;
+          margin:1em 0;
+      }
+      .footer-copright{
+          margin-bottom: 2em;
       }
 }
